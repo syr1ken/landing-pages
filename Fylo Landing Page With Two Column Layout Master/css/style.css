@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("../fonts/Raleway-Bold.eot");
+  src: url("../fonts/Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway-Bold.woff2") format("woff2"), url("../fonts/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../fonts/Raleway-Regular.eot");
+  src: url("../fonts/Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway-Regular.woff2") format("woff2"), url("../fonts/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  color: #111;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 1.4rem;
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:focus {
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.border-underline {
+  display: inline-block;
+  border-bottom: 1px solid #3c9f8f;
+}
+
+.cta-button {
+  font-size: 1rem;
+  background-color: #3065f8;
+  color: #fff;
+  box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.03);
+  display: inline-block;
+}
+
+.email-input {
+  display: inline-block;
+}
+
+.navbar {
+  padding: 2rem 0;
+  list-style: none;
+}
+.navbar-item {
+  padding: 0 2rem;
+}
+.navbar-item a {
+  font-size: 1rem;
+  color: #111;
+}
+
+#main {
+  padding: 4rem 0 15rem;
+  background-image: url(../img/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+}
+
+.main-content {
+  padding: 2rem 0 0;
+  color: #070439;
+}
+.main-content h1 {
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.main-content p {
+  font-family: "Raleway-Regular", sans-serif;
+  font-size: 1rem;
+}
+.main-img {
+  width: 100%;
+}
+
+.main-form-group {
+  display: flex;
+}
+.main-form-group_email {
+  border-color: #070439;
+  font-size: 1rem;
+  padding: 1.4rem;
+  width: 60%;
+}
+.main-form-group_btn {
+  margin-left: 1rem;
+  width: 40%;
+}
+
+#testimonials {
+  background-color: #F8F8FE;
+  margin: 0;
+  padding: 2rem 0 7rem;
+}
+
+.testimonials-content {
+  padding-right: 4rem;
+  color: #070439;
+}
+.testimonials-content h1 {
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.testimonials-content p {
+  font-family: "Raleway-Regular", sans-serif;
+  font-size: 1rem;
+}
+.testimonials-content a, .testimonials-content i {
+  font-size: 1rem;
+  color: #3c9f8f;
+}
+.testimonials-content a {
+  margin-right: 0.5rem;
+}
+.testimonials-img {
+  width: 100%;
+}
+.testimonials-card {
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  width: 55%;
+  background-color: #fff;
+  box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.03);
+}
+.testimonials-card h4 {
+  font-size: 0.7rem;
+}
+.testimonials-card p {
+  font-size: 0.9rem;
+}
+.testimonials-media img {
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  width: 15%;
+}
+.testimonials-media h3 {
+  margin: 0;
+  margin-top: 0.4rem;
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 0.8rem;
+}
+.testimonials-media p {
+  font-size: 0.6rem;
+}
+
+#cta {
+  padding: 7rem 0 6rem;
+  color: #fff;
+  background-color: #585989;
+}
+
+.cta-content {
+  margin-right: 3.5rem;
+}
+.cta-content h2 {
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.cta-content p {
+  font-family: "Raleway-Regular", sans-serif;
+  font-size: 1rem;
+}
+
+.cta-form {
+  margin-left: 3rem;
+}
+.cta-form-group_email {
+  font-size: 1rem;
+  padding: 1.5rem;
+}
+.cta-form-group_btn {
+  padding: 0.7rem 2.5rem;
+  margin-top: 1rem;
+}
+
+.footer {
+  background-color: #070439;
+  padding: 7rem 0 1rem;
+}

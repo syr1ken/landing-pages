@@ -41,11 +41,16 @@ $accent-bright-blue: hsl(224, 93%, 58%)
 $accent-moderate-cyan: hsl(170, 45%, 43%)
 
 $neutral-light-grayish-blus: hsl(240, 75%, 98%)
+$testimonials-bg: #F8F8FE
 $neutral-light-gray: hsl(0, 0%, 75%)
+
+$white: #fff
+$black: #111
 
 //Base
 body
-    +openSansReg($fz: 1.4rem)
+    color: $black
+    +opensansReg($fz: 1.4rem)
     font-size: 62.5%
 
 a
@@ -57,4 +62,133 @@ a
         color: $white
         text-decoration: none
 
+.border-underline
+    display: inline-block
+    border-bottom: 1px solid $accent-moderate-cyan
+
+//Buttons
+.cta-button
+    font-size: 1rem
+    background-color: $accent-bright-blue
+    color: $white
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 3%)
+    display: inline-block
+
+//Inputs
+.email-input
+    display: inline-block
+
 //Header
+.navbar
+    padding: 2rem 0
+    list-style: none
+    &-item
+        padding: 0 2rem
+        a
+            font-size: 1rem
+            color: $black
+
+// Main Section
+#main
+    padding: 4rem 0 15rem
+    background-image: url(../img/bg-curve-desktop.svg)
+    background-repeat: no-repeat
+    background-position: center bottom
+    background-size: 100%
+.main
+    &-content
+        padding: 2rem 0 0
+        color: $primary-dark-blue
+        h1
+            +ralewayBold($fz: 2rem)
+            line-height: 1.5
+        p
+            +ralewayReg($fz: 1rem)
+    &-img
+        width: 100%
+
+//Main Form
+.main-form
+    &-group
+        display: flex
+        &_email
+            border-color: $primary-dark-blue
+            font-size: 1rem
+            padding: 1.4rem
+            width: 60%
+        &_btn
+            margin-left: 1rem
+            width: 40%
+
+#testimonials
+    background-color: $testimonials-bg
+    margin: 0
+    padding: 2rem 0 7rem
+
+.testimonials
+    &-content
+        padding-right: 4rem
+        color: $primary-dark-blue
+        h1
+            +ralewayBold($fz: 2rem)
+            line-height: 1.5
+        p
+            +ralewayReg($fz: 1rem)
+        a, i
+            font-size: 1rem
+            color: $accent-moderate-cyan
+        a
+            margin-right: 0.5rem
+    &-img
+        width: 100%
+    &-card
+        margin-top: 3rem
+        padding: 1rem 2rem
+        width: 55%
+        background-color: $white
+        box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 3%)
+        h4
+            font-size: 0.7rem
+        p
+            font-size: 0.9rem
+    &-media
+        img
+            margin-right: 0.5rem
+            border-radius: 50%
+            width: 15%
+        h3
+            margin: 0
+            margin-top: 0.4rem
+            +ralewayBold($fz: 0.8rem)
+        p
+            font-size: 0.6rem
+
+// CTA Section
+#cta
+    padding: 7rem 0 6rem
+    color: $white
+    background-color: $primary-desaturated-blue
+.cta
+    &-content
+        margin-right: 3.5rem
+        h2
+            +ralewayBold($fz: 2rem)
+            line-height: 1.5
+        p
+            +ralewayReg($fz: 1rem)
+
+//CTA Form
+.cta-form
+    margin-left: 3rem
+    &-group
+        &_email
+            font-size: 1rem
+            padding: 1.5rem
+        &_btn
+            padding: 0.7rem 2.5rem
+            margin-top: 1rem
+
+//Footer
+.footer
+    background-color: $primary-dark-blue
+    padding: 7rem 0 1rem
