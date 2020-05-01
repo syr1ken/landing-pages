@@ -1,0 +1,60 @@
+// Fonts
+@font-face
+    font-family: 'Raleway-Bold'
+    src: url('../fonts/Raleway-Bold.eot')
+    src: url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-Bold.woff2') format('woff2'), url('../fonts/Raleway-Bold.woff') format('woff'), url('../fonts/Raleway-Bold.ttf') format('truetype')
+    font-weight: bold
+    font-style: normal
+
+@font-face
+    font-family: 'OpenSans-Regular'
+    src: url('../fonts/OpenSans-Regular.eot')
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans-Regular.ttf') format('truetype')
+    font-weight: normal
+    font-style: normal
+
+@font-face
+    font-family: 'Raleway-Regular'
+    src: url('../fonts/Raleway-Regular.eot')
+    src: url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Raleway-Regular.woff2') format('woff2'), url('../fonts/Raleway-Regular.woff') format('woff'), url('../fonts/Raleway-Regular.ttf') format('truetype')
+    font-weight: normal
+    font-style: normal
+
+// Mixins
+=ralewayReg($fz)
+    font-family: 'Raleway-Regular', sans-serif
+    font-size: $fz
+
+=ralewayBold($fz)
+    font-family: 'Raleway-Bold', sans-serif
+    font-size: $fz
+
+=opensansReg($fz)
+    font-family: 'OpenSans-Regular', sans-serif
+    font-size: $fz
+
+//Colors
+$primary-dark-blue: hsl(243, 87%, 12%)
+$primary-desaturated-blue: hsl(238, 22%, 44%)
+
+$accent-bright-blue: hsl(224, 93%, 58%)
+$accent-moderate-cyan: hsl(170, 45%, 43%)
+
+$neutral-light-grayish-blus: hsl(240, 75%, 98%)
+$neutral-light-gray: hsl(0, 0%, 75%)
+
+//Base
+body
+    +openSansReg($fz: 1.4rem)
+    font-size: 62.5%
+
+a
+    text-decoration: none
+    color: $white
+    &:focus
+        color: $white
+    &:hover
+        color: $white
+        text-decoration: none
+
+//Header
