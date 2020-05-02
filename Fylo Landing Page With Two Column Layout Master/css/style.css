@@ -46,7 +46,6 @@ a:hover {
 .cta-button {
   font-family: "Raleway-Bold", sans-serif;
   font-size: 1rem;
-  font-size: 1rem;
   background-color: #3065f8;
   color: #fff;
   box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.03);
@@ -367,6 +366,7 @@ a:hover {
     width: 80%;
   }
   .main-form-group_btn {
+    padding: 0.65rem 5rem;
     margin: 1rem 0 0;
     width: 80%;
   }
